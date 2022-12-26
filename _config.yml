@@ -107,7 +107,7 @@ author:
   name             : "ZENZEN"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "오늘도 화이팅!"
-  location         : "South Korea"
+  location         : "Seoul, Korea"
   email            :
   links:
     - label: "Email"
@@ -286,7 +286,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
