@@ -20,14 +20,14 @@ title                    : "ZENZEN BLOG"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "ZENZEN"
-description              : "젠젠 블로그"
+description              : "젠젠 블로그" #검색엔진에서의 부가 설명
 url                      : "https://zenzen-k.github.io" # the base hostname & protocol for your site e.g. 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/zenzen-k/zenzen-k.github.io" # GitHub username/repo-name e.g.
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png" masthead 타이틀 앞에 붙는 로고
 masthead_title           : "젠젠" # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+# breadcrumbs            : false # true, false (default) 이동경로탐색
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
