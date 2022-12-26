@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "ko-KR"
 title                    : "ZENZEN BLOG"
-title_separator          : "-"
+title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "ZENZEN"
 description              : "젠젠 블로그"
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/zenzen-k/zenzen-k.github.io" # GitHub username/repo-name e.g.
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "젠젠 블로그" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "젠젠" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -106,13 +106,13 @@ analytics:
 author:
   name             : "ZENZEN"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "zenzen blog"
+  bio              : "오늘도 화이팅!"
   location         : "South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:nnew11@naver.com" # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -127,7 +127,7 @@ author:
       url: "https://github.com/zenzen-k"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/zenzn_"
 
 # Site Footer
 footer:
