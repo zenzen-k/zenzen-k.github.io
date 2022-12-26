@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+# theme                  : "minimal-mistak es-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -18,21 +18,21 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "ko-KR"
 title                    : "ZENZEN BLOG"
 title_separator          : "|"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 :  # site tagline that appears below site title in masthead
 name                     : "ZENZEN"
-description              : "젠젠 블로그" #검색엔진에서의 부가 설명
+description              : "젠젠의 블로그입니다"
 url                      : "https://zenzen-k.github.io" # the base hostname & protocol for your site e.g. 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/zenzen-k/zenzen-k.github.io" # GitHub username/repo-name e.g.
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png" masthead 타이틀 앞에 붙는 로고
+logo                     : "/assets/images/logo.png"
 masthead_title           : "젠젠" # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default) 이동경로탐색
+breadcrumbs              : true
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "zenzen blog" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -107,12 +107,12 @@ author:
   name             : "ZENZEN"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "오늘도 화이팅!"
-  location         : "Seoul, Korea"
+  location         : "Incheon, Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:nnew11@naver.com" # url: "mailto:your.name@email.com"
+      # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -124,10 +124,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/zenzen-k"
+      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/zenzn_"
+      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -286,7 +286,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
-      comments: # true
+      read_time: true
+      comments: true
       share: true
       related: true
+      show_date: true
+
+
+date_format: "%Y-%m-%d"
